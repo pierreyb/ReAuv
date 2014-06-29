@@ -1,0 +1,33 @@
+<h1>Listing banque_carrefour_entreprises</h1>
+
+<table>
+  <tr>
+    <th>Entreprise number</th>
+    <th>Status</th>
+    <th>Juridical situation</th>
+    <th>Type of entreprise</th>
+    <th>Juridical form</th>
+    <th>Start date</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @banque_carrefour_entreprises.each do |banque_carrefour_entreprise| %>
+  <tr>
+    <td><%= banque_carrefour_entreprise.entreprise_number %></td>
+    <td><%= banque_carrefour_entreprise.status %></td>
+    <td><%= banque_carrefour_entreprise.juridical_situation %></td>
+    <td><%= banque_carrefour_entreprise.type_of_entreprise %></td>
+    <td><%= banque_carrefour_entreprise.juridical_form %></td>
+    <td><%= banque_carrefour_entreprise.start_date %></td>
+    <td><%= link_to 'Show', banque_carrefour_entreprise %></td>
+    <td><%= link_to 'Edit', edit_banque_carrefour_entreprise_path(banque_carrefour_entreprise) %></td>
+    <td><%= link_to 'Destroy', banque_carrefour_entreprise, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Banque carrefour entreprise', new_banque_carrefour_entreprise_path %>

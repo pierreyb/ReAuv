@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  entity_number: MyString
+  language: MyString
+  type_of_denomination: MyString
+  denomination: MyText
+
+two:
+  entity_number: MyString
+  language: MyString
+  type_of_denomination: MyString
+  denomination: MyText

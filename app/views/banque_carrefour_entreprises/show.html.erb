@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Entreprise number:</b>
+  <%= @banque_carrefour_entreprise.entreprise_number %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @banque_carrefour_entreprise.status %>
+</p>
+
+<p>
+  <b>Juridical situation:</b>
+  <%= @banque_carrefour_entreprise.juridical_situation %>
+</p>
+
+<p>
+  <b>Type of entreprise:</b>
+  <%= @banque_carrefour_entreprise.type_of_entreprise %>
+</p>
+
+<p>
+  <b>Juridical form:</b>
+  <%= @banque_carrefour_entreprise.juridical_form %>
+</p>
+
+<p>
+  <b>Start date:</b>
+  <%= @banque_carrefour_entreprise.start_date %>
+</p>
+
+
+<%= link_to 'Edit', edit_banque_carrefour_entreprise_path(@banque_carrefour_entreprise) %> |
+<%= link_to 'Back', banque_carrefour_entreprises_path %>

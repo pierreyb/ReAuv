@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  entity_number: MyString
+  activity_group: MyString
+  nace_version: MyString
+  nace_code: 1
+  classification: MyString
+
+two:
+  entity_number: MyString
+  activity_group: MyString
+  nace_version: MyString
+  nace_code: 1
+  classification: MyString

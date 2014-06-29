@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  entreprise_number: MyString
+  status: MyString
+  juridical_situation: MyString
+  type_of_entreprise: MyString
+  juridical_form: MyString
+  start_date: 2014-06-21
+
+two:
+  entreprise_number: MyString
+  status: MyString
+  juridical_situation: MyString
+  type_of_entreprise: MyString
+  juridical_form: MyString
+  start_date: 2014-06-21

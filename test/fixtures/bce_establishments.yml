@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  establishment_number: MyString
+  start_date: 2014-06-22
+  entreprise_number: 
+
+two:
+  establishment_number: MyString
+  start_date: 2014-06-22
+  entreprise_number: 

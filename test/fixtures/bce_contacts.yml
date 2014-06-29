@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  entity_number: MyString
+  entity_contact: MyString
+  contact_type: MyString
+  value: MyString
+
+two:
+  entity_number: MyString
+  entity_contact: MyString
+  contact_type: MyString
+  value: MyString
